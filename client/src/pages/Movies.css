@@ -1,0 +1,21 @@
+/* Movies.css */
+.movies-container {
+    background: linear-gradient(180deg, #000000, #1a1a1a);
+    color: #ffffff;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .movies-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin: 20px 0;
+  }
+  
+  .error-message {
+    color: #ff6347;
+    font-size: 1.2rem;
+    margin: 20px 0;
+  }
+  

@@ -1,0 +1,139 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #000000, #1a1a1a);
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+
+/* Centered Header */
+.header {
+  background: transparent;
+  color: #ff0000;
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+/* Navbar styling */
+.Navbar {
+  background-color: #333;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.Navbar li {
+  margin: 0 20px;
+}
+
+.Navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.Navbar a:hover {
+  color: #ff6347;
+}
+
+/* Button styling for home, movies, and TV shows */
+.page-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.page-button {
+  background-color: #444;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.page-button:hover {
+  background-color: #ff6347;
+}
+
+.MovieCard {
+  border: none;
+  background-color: #333;
+  color: #ffffff;
+  margin: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.MovieCard img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #444;
+}
+
+.MovieCard .Card-body {
+  padding: 15px;
+  color: #000000;
+}
+
+.MovieCard .Card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ff6347; /* Bright color for titles */
+}
+
+.MovieCard .Card-text {
+  font-size: 0.9rem;
+  color: #bbbbbb; /* Light gray for descriptions */
+}
+
+.MovieCard:hover {
+  transform: translateY(-5px);
+}
+
+/* General row styling */
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .Navbar ul {
+    flex-direction: column;
+  }
+
+  .Navbar li {
+    margin: 10px 0;
+  }
+
+  .page-buttons {
+    flex-direction: column;
+  }
+}

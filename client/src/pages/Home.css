@@ -1,0 +1,53 @@
+/* Home.css */
+
+.home-container {
+    background: linear-gradient(to right, #1e1e1e, #333333); /* Black gradient background */
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    min-height: 100vh;
+  }
+  
+  .home-subtitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Styling for Movie Cards */
+  .MovieCard {
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .MovieCard .Card-title {
+    color: white;
+  }
+  
+  .MovieCard .Card-text {
+    color: #ccc;
+  }
+  
+  /* Button styles if needed */
+  .button {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin: 15px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button:hover {
+    background-color: red;
+    color: white;
+  }
+  
