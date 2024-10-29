@@ -5,7 +5,9 @@
     "start": "node server.js",
     "client": "cd client && npm start",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "cd client && npm install && npm run build"
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d client/build"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
