@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Build output
+build/
+
+# Cache and temporary files
+.cache/
+dist/
+temp/
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
