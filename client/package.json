@@ -2,7 +2,7 @@
   "name": "client",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://ArmandoSNHU.github.io",
+  "homepage": "https://ArmandoSNHU.github.io/Film-Flix",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
